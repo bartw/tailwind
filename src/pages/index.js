@@ -10,8 +10,10 @@ export default () => {
         <title>{title}</title>
         <meta name="description" content={description} />
       </Helmet>
-      <h1>{title}</h1>
-      <div>Hello world!</div>
+      <div className="p-20">
+        <h1 className="font-bold text-xl">{title}</h1>
+        <div className="mt-4">Hello world!</div>
+      </div>
     </>
   );
 };
